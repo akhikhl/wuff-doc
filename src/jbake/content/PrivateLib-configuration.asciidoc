@@ -1,0 +1,10 @@
+= PrivateLib configuration
+Andrey Hihlovskiy
+2014-06-28
+:sectanchors:
+:jbake-type: page
+:jbake-status: published
+
+:construction: 
+
+This part of documentation is coming soon!

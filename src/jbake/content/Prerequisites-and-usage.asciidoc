@@ -1,0 +1,21 @@
+= Prerequisites and usage
+Andrey Hihlovskiy
+2014-06-28
+:sectanchors:
+:jbake-type: page
+:jbake-status: published
+
+We already learned what are xref:Feature-overview#[main features] of Wuff. Now we consider what is required to start using Wuff:
+- JDK version 7 or 8
+- gradle version 1.11 or newer
+- http-access to jcenter
+
+Eclipse is not required. Wuff downloads and configures it automatically, from the official sources.
+
+Wuff is a set of gradle plugins, that means - using Wuff is writing gradle scripts. Luckily, there's not much work to do. 
+We create "build.gradle", add jcenter as maven repository, add instruction like `apply plugin: "org.akhikhl.wuff.eclipse-rcp-app"` and that's it. 
+Wuff does all heavylifting - including OSGi dependencies, Equinox configuration etc.etc.
+
+Wuff is available as maven artifact 'org.akhikhl.wuff:wuff-plugin:+' at jcenter and maven central.
+
+From here you can jump right to the examples: xref:Create-first-Equinox-app#[first Equinox app], xref:Create-first-RCP-app#[first RCP app], xref:Create-first-IDE-app#[first IDE app] or systematically learn more about xref:Gradle-plugins#[gradle plugins] provided by Wuff.

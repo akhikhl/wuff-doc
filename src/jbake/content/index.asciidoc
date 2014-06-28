@@ -5,83 +5,79 @@ Andrey Hihlovskiy
 :jbake-type: page
 :jbake-status: published
 
-Wuff is a gradle plugin for developing and assembling OSGi/Eclipse applications and plugins *independently* of Eclipse-IDE. 
-If you are familiar with https://www.eclipse.org/tycho/[Eclipse Tycho], then think of Wuff as a gradle-based alternative.
-
-== Basics
-
-- link:Main-features.html[Main features]
-- link:Prerequisites-and-usage.html[Prerequisites and usage]
-- link:Gradle-plugins.html[Gradle plugins]
-- link:Examples.html[Examples]
-- link:Faq.html[FAQ]
+- xref:Feature-overview#[Feature overview]
+- xref:Prerequisites-and-usage#[Prerequisites and usage]
+- xref:Gradle-plugins#[Gradle plugins]
+- xref:Gradle-tasks#[Gradle tasks]
+- xref:Examples#[Examples]
+- xref:Faq#[FAQ]
 
 == Equinox app
 
-- link:Create-first-Equinox-app.html[Create first Equinox app]
-- link:Configure-Equinox-products.html[Configure Equinox products]
-- link:Prepare-Equinox-app-for-multiproject-build.html[Prepare Equinox app for multi-project build]
-- link:Create-OSGi-bundle-and-use-it-in-Equinox-app.html[Create OSGi-bundle and use it in Equinox app]
+- xref:Create-first-Equinox-app#[Create first Equinox app]
+- xref:Configure-Equinox-products#[Configure Equinox products]
+- xref:Prepare-Equinox-app-for-multiproject-build#[Prepare Equinox app for multi-project build]
+- xref:Create-OSGi-bundle-and-use-it-in-Equinox-app#[Create OSGi-bundle and use it in Equinox app]
 
 == RCP app
 
-- link:Create-first-RCP-app.html[Create first RCP app]
-- link:Configure-RCP-products.html[Configure RCP products]
-- link:Prepare-RCP-app-for-multiproject-build.html[Prepare RCP app for multiproject build]
-- link:Create-Eclipse-bundle-and-use-it-in-RCP-app.html[Create Eclipse bundle and use it in RCP app]
-- link:Add-splash-to-RCP-app.html[Add splash to RCP app]
-- link:Add-intro-page-to-RCP-app.html[Add intro page to RCP app]
-- link:Localize-RCP-app.html[Localize RCP app]
+- xref:Create-first-RCP-app#[Create first RCP app]
+- xref:Configure-RCP-products#[Configure RCP products]
+- xref:Prepare-RCP-app-for-multiproject-build#[Prepare RCP app for multiproject build]
+- xref:Create-Eclipse-bundle-and-use-it-in-RCP-app#[Create Eclipse bundle and use it in RCP app]
+- xref:Add-splash-to-RCP-app#[Add splash to RCP app]
+- xref:Add-intro-page-to-RCP-app#[Add intro page to RCP app]
+- xref:Localize-RCP-app#[Localize RCP app]
 
 == IDE app
 
-- link:Create-first-IDE-app.html[Create first IDE app]
-- link:Configure-IDE-products.html[Configure IDE products]
-- link:Prepare-IDE-app-for-multiproject-build.html[Prepare IDE app for multiproject build]
-- link:Create-IDE-bundle-and-use-it-in-IDE-app.html[Create IDE bundle and use it in IDE app]
-- link:Add-perspective-and-view-to-IDE-app.html[Add perspective and view to IDE app]
-- link:Add-splash-to-IDE-app.html[Add splash to IDE app]
-- link:Add-intro-page-to-IDE-app.html[Add intro page to IDE app]
-- link:Localize-IDE-app.html[Localize IDE app]
+- xref:Create-first-IDE-app#[Create first IDE app]
+- xref:Configure-IDE-products#[Configure IDE products]
+- xref:Prepare-IDE-app-for-multiproject-build#[Prepare IDE app for multiproject build]
+- xref:Create-IDE-bundle-and-use-it-in-IDE-app#[Create IDE bundle and use it in IDE app]
+- xref:Add-perspective-and-view-to-IDE-app#[Add perspective and view to IDE app]
+- xref:Add-splash-to-IDE-app#[Add splash to IDE app]
+- xref:Add-intro-page-to-IDE-app#[Add intro page to IDE app]
+- xref:Localize-IDE-app#[Localize IDE app]
 
 == SWT app
 
-- link:Create-first-SWT-app.html[Create first SWT app]
-- link:Configure-SWT-products.html[Configure SWT products]
-- link:Prepare-SWT-app-for-multiproject-build.html[Prepare SWT app for multiproject build]
-- link:Create-SWT-library-and-use-it-in-SWT-app.html[Create SWT library and use it in SWT app]
-- link:Localize-SWT-app.html[Localize SWT app]
+- xref:Create-first-SWT-app#[Create first SWT app]
+- xref:Configure-SWT-products#[Configure SWT products]
+- xref:Prepare-SWT-app-for-multiproject-build#[Prepare SWT app for multiproject build]
+- xref:Create-SWT-library-and-use-it-in-SWT-app#[Create SWT library and use it in SWT app]
+- xref:Localize-SWT-app#[Localize SWT app]
 
 == Convert existing Eclipse plugins and apps to Gradle
 
-- link:Convert-existing-Eclipse-plugins-and-apps-to-Gradle.html[Convert existing Eclipse plugins and apps to Gradle]
+- xref:Convert-existing-Eclipse-plugins-and-apps-to-Gradle#[Convert existing Eclipse plugins and apps to Gradle]
 
 == Programming manifests
 
-- link:Default-manifest.html[Default manifest]
-- link:Manifest-attributes-in-build.gradle.html[Manifest attributes in build.gradle]
-- link:Manifest-attributes-in-MANIFEST.MF.html[Manifest attributes in MANIFEST.MF]
-- link:Manifest-expression-injection.html[Manifest expression injection]
+- xref:Default-manifest#[Default manifest]
+- xref:Manifest-attributes-in-build.gradle#[Manifest attributes in build.gradle]
+- xref:Manifest-attributes-in-MANIFEST.MF#[Manifest attributes in MANIFEST.MF]
+- xref:Manifest-expression-injection#[Manifest expression injection]
 
 == Programming "plugin.xml"
 
-- link:Default-plugin.xml.html[Default "plugin.xml"]
-- link:plugin.xml-for-eclipse-bundle.html["plugin.xml" for Eclipse bundle]
-- link:Plugin.xml-for-eclipse-equinox-app.html["plugin.xml" for Equinox app]
-- link:Plugin.xml-for-eclipse-rcp-app.html["plugin.xml" for RCP app]
-- link:Plugin.xml-for-eclipse-ide-app.html["plugin.xml" for IDE app]
-- link:plugin.xml-expression-injection.html["plugin.xml" expression injection]
+- xref:Default-plugin.xml#[Default "plugin.xml"]
+- xref:plugin.xml-for-eclipse-bundle#["plugin.xml" for Eclipse bundle]
+- xref:Plugin.xml-for-eclipse-equinox-app#["plugin.xml" for Equinox app]
+- xref:Plugin.xml-for-eclipse-rcp-app#["plugin.xml" for RCP app]
+- xref:Plugin.xml-for-eclipse-ide-app#["plugin.xml" for IDE app]
+- xref:plugin.xml-expression-injection#["plugin.xml" expression injection]
 
 == Dependency management
 
-- link:OSGi-dependencies-challenge.html[OSGi dependencies challenge]
-- link:Mavenizing-OSGi-bundles.html[Mavenizing OSGi bundles]
-- link:Wrapping-non-OSGi-libraries.html[Wrapping non-OSGi libraries]
-- link:PrivateLib-configuration.html[PrivateLib configuration]
+- xref:OSGi-dependencies-challenge#[OSGi dependencies challenge]
+- xref:Mavenizing-OSGi-bundles#[Mavenizing OSGi bundles]
+- xref:Wrapping-non-OSGi-libraries#[Wrapping non-OSGi libraries]
+- xref:PrivateLib-configuration#[PrivateLib configuration]
 
 == Configuration
 
-- link:Configuration-DSL.html[Configuration DSL]
-- link:Hierarchical-configurations.html[Hierarchical configurations]
-- link:Default-configuration.html[Default configuration]
+- xref:Configuration-DSL#[Configuration DSL]
+- xref:Hierarchical-configurations#[Hierarchical configurations]
+- xref:Default-configuration#[Default configuration]
 

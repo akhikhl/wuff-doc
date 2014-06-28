@@ -1,0 +1,55 @@
+= Feature overview
+Andrey Hihlovskiy
+2014-06-28
+:sectanchors:
+:jbake-type: page
+:jbake-status: published
+
+Wuff is a gradle plugin for developing and assembling OSGi/Eclipse bundles and applications *independently* of Eclipse-IDE. 
+If you are familiar with https://www.eclipse.org/tycho/[Eclipse Tycho], then think of Wuff as a gradle-based alternative.
+
+Wuff provides the following features:
+
+== Gradle tasks
+
+Wuff provides gradle tasks, which automate assembly, running and debugging Eclipse bundles and apps.
+Tasks work out-of-the-box, without additional configuration, but are fully configurable/customizable.
+
+See more information at xref:Wuff-tasks#[gradle tasks].
+
+== OSGi automation
+
+Wuff automatically xref:Mavenizing-OSGi-bundles#[downloads and "mavenizes" standard Eclipse bundles]. 
+As the result, bundle dependencies (expressed in OSGi manifests) are converted to maven dependencies,
+so that you can use all familiar maven/gradle dependency management on Eclipse bundles.
+
+== Multiple Eclipse versions
+
+Wuff supports xref:Switch-between-Eclipse-versions#[easy switch between Eclipse versions] 3.7.1, 3.7.2, 4.2.1, 4.2.2, 4.3.1, 4.3.2, 4.4. 
+All you have to do is set `wuff.selectedEclipseVersion='3.7.1'`, the rest is done by Wuff.
+
+== No boilerplate
+
+- Wuff automatically generates and merges OSGi manifests.
+- Wuff automatically generates and merges "plugin.xml".
+- Wuff automatically generates and merges "plugin_customization.ini".
+- Wuff automatically integrates "splash.bmp" into RCP/IDE app.
+- Wuff automatically integrates intro pages into RCP/IDE app.
+- Wuff automatically injects trivial OSGi/Eclipse dependencies into bundles and applications.
+- Wuff automatically wraps non-OSGi dependencies into OSGi-bundles.
+
+Wuff generates all files in your project's buildDir. Sources are free from generated code - clean and concize.
+
+== Interoperability with existing code
+
+- Wuff respects existing OSGi manifests, "plugin.xml", "build.properties", "plugin_customization.ini". 
+  These files are used "as it is" or intelligently merged with Wuff-generated files.
+- Wuff handles both manifest-first and gradle-first dependencies.
+
+== Product generation
+
+- Wuff automatically generates runnable Equinox/RCP/IDE products for multiple platforms
+- Wuff incorporates the desired language packs into RCP/IDE products
+
+If you feel interested, it is time to learn about Wuff's xref:Prerequisites-and-usage#[prerequisites and usage].
+

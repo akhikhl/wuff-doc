@@ -1,0 +1,14 @@
+= "plugin.xml" for Eclipse IDE app
+Andrey Hihlovskiy
+2014-06-28
+:sectanchors:
+:jbake-type: page
+:jbake-status: published
+
+We already know how to xref:plugin.xml-for-eclipse-rcp-app#[program "plugin.xml" for RCP app]. 
+
+Programming "plugin.xml" for IDE app is not much different. There is only one difference: Wuff does not generate extension-point "org.eclipse.core.runtime.applications" for IDE apps. Instead, it uses the extension-point "org.eclipse.ui.ide.workbench", provided by Eclipse libraries.
+
+---
+
+Next page: xref:plugin.xml-expression-injection#["plugin.xml" expression injection]

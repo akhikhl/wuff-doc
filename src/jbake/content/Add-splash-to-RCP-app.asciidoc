@@ -1,0 +1,32 @@
+= Add splash to RCP app
+Andrey Hihlovskiy
+2014-06-28
+:sectanchors:
+:jbake-type: page
+:jbake-status: published
+
+We already xref:Create-Eclipse-bundle-and-use-it-in-RCP-app#[created Eclipse bundle and used it in RCP app]. Now we add splash screen to the RCP app.
+
+### Prepare splash screen
+
+Download or create some bmp-file with bit depth 8 or 24 (not 32). Name it "splash.bmp".
+
+Create folder "tutorials/MyRcpApp/src/main/resources", copy splash file into it. Alternatively, we can store splash screen in "tutorials/MyRcpApp".
+
+### Compile
+
+Invoke on command line in "tutorials" folder: `gradle build`
+
+Note that we don't have to configure splash screen in configuration files - wuff does this for us automatically.
+
+### Run
+
+Run the compiled product from command line. The program shows splash screen while starting:
+
+image::images/RcpApp-5-run-1.png "RcpApp-5-run-1"[RcpApp-5-run-1]
+
+---
+
+The example code for this page: link:../tree/master/examples/RcpApp-5.html[examples/RcpApp-5].
+
+Next page: xref:Add-intro-page-to-RCP-app#[Add intro page to RCP app].

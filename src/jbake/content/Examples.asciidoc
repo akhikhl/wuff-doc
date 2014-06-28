@@ -1,0 +1,14 @@
+= Examples
+Andrey Hihlovskiy
+2014-06-28
+:sectanchors:
+:jbake-type: page
+:jbake-status: published
+
+Wuff sources contain self-sufficient, compilable examples. Each example corresponds to particular wiki chapter. 
+
+You can compile and learn examples from link:https://github.com/akhikhl/wuff/tree/master/examples.html[source code].
+
+If you prefer building things yourself, from scratch, then good starting points would be xref:Create-first-Equinox-app#[first Equinox app], xref:Create-first-RCP-app#[first RCP app] and xref:Create-first-IDE-app#[first IDE app].
+
+Examples are organized "incrementally", i.e. sources of the next example include everything from the previous one. Best of all you learn examples in natural sequence: 1, 2, ...
