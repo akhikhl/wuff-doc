@@ -1,0 +1,87 @@
+= Wuff documentation
+Andrey Hihlovskiy
+2014-06-28
+:sectanchors:
+:jbake-type: page
+:jbake-status: published
+
+Wuff is a gradle plugin for developing and assembling OSGi/Eclipse applications and plugins *independently* of Eclipse-IDE. 
+If you are familiar with https://www.eclipse.org/tycho/[Eclipse Tycho], then think of Wuff as a gradle-based alternative.
+
+== Basics
+
+- link:Main-features.html[Main features]
+- link:Prerequisites-and-usage.html[Prerequisites and usage]
+- link:Gradle-plugins.html[Gradle plugins]
+- link:Examples.html[Examples]
+- link:Faq.html[FAQ]
+
+== Equinox app
+
+- link:Create-first-Equinox-app.html[Create first Equinox app]
+- link:Configure-Equinox-products.html[Configure Equinox products]
+- link:Prepare-Equinox-app-for-multiproject-build.html[Prepare Equinox app for multi-project build]
+- link:Create-OSGi-bundle-and-use-it-in-Equinox-app.html[Create OSGi-bundle and use it in Equinox app]
+
+== RCP app
+
+- link:Create-first-RCP-app.html[Create first RCP app]
+- link:Configure-RCP-products.html[Configure RCP products]
+- link:Prepare-RCP-app-for-multiproject-build.html[Prepare RCP app for multiproject build]
+- link:Create-Eclipse-bundle-and-use-it-in-RCP-app.html[Create Eclipse bundle and use it in RCP app]
+- link:Add-splash-to-RCP-app.html[Add splash to RCP app]
+- link:Add-intro-page-to-RCP-app.html[Add intro page to RCP app]
+- link:Localize-RCP-app.html[Localize RCP app]
+
+== IDE app
+
+- link:Create-first-IDE-app.html[Create first IDE app]
+- link:Configure-IDE-products.html[Configure IDE products]
+- link:Prepare-IDE-app-for-multiproject-build.html[Prepare IDE app for multiproject build]
+- link:Create-IDE-bundle-and-use-it-in-IDE-app.html[Create IDE bundle and use it in IDE app]
+- link:Add-perspective-and-view-to-IDE-app.html[Add perspective and view to IDE app]
+- link:Add-splash-to-IDE-app.html[Add splash to IDE app]
+- link:Add-intro-page-to-IDE-app.html[Add intro page to IDE app]
+- link:Localize-IDE-app.html[Localize IDE app]
+
+== SWT app
+
+- link:Create-first-SWT-app.html[Create first SWT app]
+- link:Configure-SWT-products.html[Configure SWT products]
+- link:Prepare-SWT-app-for-multiproject-build.html[Prepare SWT app for multiproject build]
+- link:Create-SWT-library-and-use-it-in-SWT-app.html[Create SWT library and use it in SWT app]
+- link:Localize-SWT-app.html[Localize SWT app]
+
+== Convert existing Eclipse plugins and apps to Gradle
+
+- link:Convert-existing-Eclipse-plugins-and-apps-to-Gradle.html[Convert existing Eclipse plugins and apps to Gradle]
+
+== Programming manifests
+
+- link:Default-manifest.html[Default manifest]
+- link:Manifest-attributes-in-build.gradle.html[Manifest attributes in build.gradle]
+- link:Manifest-attributes-in-MANIFEST.MF.html[Manifest attributes in MANIFEST.MF]
+- link:Manifest-expression-injection.html[Manifest expression injection]
+
+== Programming "plugin.xml"
+
+- link:Default-plugin.xml.html[Default "plugin.xml"]
+- link:plugin.xml-for-eclipse-bundle.html["plugin.xml" for Eclipse bundle]
+- link:Plugin.xml-for-eclipse-equinox-app.html["plugin.xml" for Equinox app]
+- link:Plugin.xml-for-eclipse-rcp-app.html["plugin.xml" for RCP app]
+- link:Plugin.xml-for-eclipse-ide-app.html["plugin.xml" for IDE app]
+- link:plugin.xml-expression-injection.html["plugin.xml" expression injection]
+
+== Dependency management
+
+- link:OSGi-dependencies-challenge.html[OSGi dependencies challenge]
+- link:Mavenizing-OSGi-bundles.html[Mavenizing OSGi bundles]
+- link:Wrapping-non-OSGi-libraries.html[Wrapping non-OSGi libraries]
+- link:PrivateLib-configuration.html[PrivateLib configuration]
+
+== Configuration
+
+- link:Configuration-DSL.html[Configuration DSL]
+- link:Hierarchical-configurations.html[Hierarchical configurations]
+- link:Default-configuration.html[Default configuration]
+
